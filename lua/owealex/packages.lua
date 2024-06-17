@@ -43,4 +43,19 @@ return require('packer').startup(function(use)
       {'rafamadriz/friendly-snippets'},
     }
   }
+
+  use {
+      'romgrk/barbar.nvim',
+      requires = {
+          { 'nvim-tree/nvim-web-devicons' },
+          { 'lewis6991/gitsigns.nvim' },
+      }
+  }
+
+  use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+          'nvim-tree/nvim-web-devicons', -- optional
+      },
+  }
 end)

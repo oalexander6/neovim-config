@@ -1,3 +1,6 @@
 require('owealex.remap')
 require('owealex.set')
 require('owealex.theme')
+require('owealex.packages')
+require('owealex.nvim_tree')
+require('owealex.barbar')
